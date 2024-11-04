@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
 
 const Appointments = () => {
   const [name, setName] = useState('');
@@ -9,6 +10,8 @@ const Appointments = () => {
   const [count, setCount] = useState('');
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
+
+  const navigate=useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -19,13 +22,21 @@ const Appointments = () => {
       setCount("");
       setDate("");
       setTime("");
-      toast.success("Successfully Booked!");
+      toast.success("Successfully Booked!",{
+        autoClose:3000
+      });
+      
+      setTimeout(() => {
+        navigate('/');
+      }, 3500); // Adjust delay as needed
+    
       console.log('inserted');
       console.log(res)
     } catch (error) {
       toast.error('Error in booking. Please try again.');
       console.log('error in inserting');
     }
+    
   };
 
   return (
