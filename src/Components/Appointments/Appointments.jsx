@@ -13,7 +13,7 @@ const Appointments = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res=await axios.post("http://localhost:4000/appointment/insert", { name, phone, count, date, time });
+      const res=await axios.post("https://cafe-coffee-backend-2.onrender.com/appointment/insert", { name, phone, count, date, time });
       setName("");
       setPhone("");
       setCount("");

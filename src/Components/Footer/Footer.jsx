@@ -12,7 +12,7 @@ const Footer = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:4000/", { name, email, phone, message });
+      await axios.post("https://cafe-coffee-backend-2.onrender.com/", { name, email, phone, message });
       setName("");
       setEmail("");
       setPhone("");
