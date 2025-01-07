@@ -30,7 +30,7 @@ const Footer = () => {
       <div className="bg-primary flex flex-col md:flex-row justify-around items-center gap-5 font-cursive text-white p-5">
         <div className="flex flex-col justify-center items-center gap-5 text-center md:text-left">
           <h1 className="text-2xl">Contact Us</h1>
-          <div className="flex flex-wrap justify-center items-center gap-6">
+          <div className="flex flex-col flex-wrap justify-center items-center gap-6">
             <a href="#"><h1 className="hover:underline">Home</h1></a>
             <a href="#services"><h1 className="hover:underline">BestSeller</h1></a>
             <a href="#banner"><h1 className="hover:underline">About</h1></a>
