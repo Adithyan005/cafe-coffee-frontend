@@ -1,5 +1,6 @@
 import React from "react";
-import espresso from "../../assets/imgs/7.png";
+import espresso from "../../assets/imgs/espresso.png";
+import americano from "../../assets/imgs/americano.png"
 const Service = () => {
   return (
     <>
@@ -18,11 +19,11 @@ const Service = () => {
               data-aos-delay="100"
               className="rounded-2xl shadow-xl bg-white hover:bg-primary hover:text-white duration-200 max-w-[300px] group relative"
             >
-              <div className="h-[122px]">
+              <div className="h-[120px]">
                 <img
                   src={espresso}
                   alt=""
-                  className="max-w-[200px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
+                  className="max-w-[160px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
                 />
               </div>
 
@@ -39,11 +40,11 @@ const Service = () => {
               data-aos-delay="100"
               className="rounded-2xl shadow-xl bg-white hover:bg-primary hover:text-white duration-200 max-w-[300px] group relative"
             >
-              <div className="h-[122px]">
+              <div className="h-[120px]">
                 <img
-                  src={espresso}
+                  src={americano}
                   alt=""
-                  className="max-w-[200px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
+                  className="max-w-[160px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
                 />
               </div>
 
