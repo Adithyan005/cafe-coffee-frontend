@@ -1,6 +1,11 @@
 import React from "react";
 import espresso from "../../assets/imgs/espresso.png";
 import americano from "../../assets/imgs/americano.png"
+import capuccino from "../../assets/imgs/capuccino.png"
+import latte from "../../assets/imgs/latte.png"
+import mocha from "../../assets/imgs/mocha.png"
+import irish from "../../assets/imgs/irish.png"
+
 const Service = () => {
   return (
     <>
@@ -44,7 +49,7 @@ const Service = () => {
                 <img
                   src={americano}
                   alt=""
-                  className="max-w-[160px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
+                  className="max-w-[180px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
                 />
               </div>
 
@@ -61,11 +66,11 @@ const Service = () => {
               data-aos-delay="100"
               className="rounded-2xl shadow-xl bg-white hover:bg-primary hover:text-white duration-200 max-w-[300px] group relative"
             >
-              <div className="h-[122px]">
+              <div className="h-[120px]">
                 <img
-                  src={espresso}
+                  src={capuccino}
                   alt=""
-                  className="max-w-[200px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
+                  className="max-w-[240px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
                 />
               </div>
               <div className="p-2 text-center">
@@ -81,11 +86,11 @@ const Service = () => {
               data-aos-delay="100"
               className="rounded-2xl shadow-xl bg-white hover:bg-primary hover:text-white duration-200 max-w-[300px] group relative"
             >
-              <div className="h-[122px]">
+              <div className="h-[120px]">
                 <img
-                  src={espresso}
+                  src={latte}
                   alt=""
-                  className="max-w-[200px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
+                  className="max-w-[160px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
                 />
               </div>
               <div className="p-2 text-center">
@@ -100,11 +105,11 @@ const Service = () => {
               data-aos-delay="100"
               className="rounded-2xl shadow-xl bg-white hover:bg-primary hover:text-white duration-200 max-w-[300px] group relative"
             >
-              <div className="h-[122px]">
+              <div className="h-[120px]">
                 <img
-                  src={espresso}
+                  src={mocha}
                   alt=""
-                  className="max-w-[200px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
+                  className="max-w-[185px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
                 />
               </div>
               <div className="p-2 text-center">
@@ -119,11 +124,11 @@ const Service = () => {
               data-aos-delay="100"
               className="rounded-2xl shadow-xl bg-white hover:bg-primary hover:text-white duration-200 max-w-[300px] group relative"
             >
-              <div className="h-[122px]">
+              <div className="h-[120px]">
                 <img
-                  src={espresso}
+                  src={irish}
                   alt=""
-                  className="max-w-[200px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
+                  className="max-w-[150px] block mx-auto transform -translate-y-10 group-hover:scale-110 group-hover:rotate-6 duration-300"
                 />
               </div>
               <div className="p-2 text-center">
